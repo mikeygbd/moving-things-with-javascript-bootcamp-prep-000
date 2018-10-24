@@ -3,9 +3,6 @@ const expect = require('expect')
 const fs = require('fs')
 const jsdom = require('mocha-jsdom')
 const path = require('path')
-const app = "I don't do anything."
-var dodger = document.getElementById('dodger')
- dodger.style.backgroundColor = "000000";
 
 describe('index', () => {
 
@@ -18,3 +15,6 @@ describe('index', () => {
     expect(true).toBe.true
   })
 })
+const app = "I don't do anything."
+var dodger = document.getElementById('dodger')
+ dodger.style.backgroundColor = "000000";
